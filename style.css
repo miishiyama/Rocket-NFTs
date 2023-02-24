@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif
 }
 
 header {
@@ -10,19 +10,19 @@ header {
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100%;
-    width: 100%;
+    width: 100%
 }
 
 #menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 57px;
+    padding-top: 57px
 }
 
 #menu div {
     display: flex;
-    gap: 60px;
+    gap: 60px
 }
 
 #menu div a {
@@ -31,11 +31,11 @@ header {
     font-size: 18px;
     line-height: 22px;
     color: white;
-    transition: 0.3s;
+    transition: 0.3s
 }
 
 #menu div a:hover {
-    transform: scale(1.05);
+    transform: scale(1.05)
 }
 
 #menu button {
@@ -48,80 +48,80 @@ header {
     padding: 10px 14px;
     gap: 15px;
     border: none;
-    cursor: pointer;
+    cursor: pointer
 }
 
 #content {
     display: flex;
     justify-content: space-around;
-    margin-top: 90px;
+    margin-top: 90px
 }
 
 #content .content-1 {
     width: 400px;
     display: flex;
     flex-direction: column;
-    gap: 55px;
+    gap: 55px
 }
 
 #content .content-1 .text p {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    color: white;
+    color: white
 }
 
 #content .content-1 .artist {
-    display: flex;
+    display: flex
 }
 
 #content .content-1 .artist .avatar img {
     transition: 0.3s;
-    cursor: pointer;
+    cursor: pointer
 }
 
 #content .content-1 .artist .avatar img:hover {
-    transform: scale(1.05);
+    transform: scale(1.05)
 }
 
 #content .content-1 .artist .avatar img:nth-child(1) {
     position: relative;
-    z-index: 4;
+    z-index: 4
 }
 
 #content .content-1 .artist .avatar img:nth-child(2),
 #content .content-1 .artist .avatar img:nth-child(3),
 #content .content-1 .artist .avatar img:nth-child(4) {
-    margin-left: -70px;
+    margin-left: -70px
 }
 
 #content .content-1 .artist .avatar img:nth-child(2) {
     position: relative;
-    z-index: 3;
+    z-index: 3
 }
 
 #content .content-1 .artist .avatar img:nth-child(3) {
     position: relative;
-    z-index: 2;
+    z-index: 2
 }
 
 #content .content-1 .artist .datas {
     margin-top: 40px;
-    margin-left: 6px;
+    margin-left: 6px
 }
 
 #content .content-1 .artist .datas span {
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
-    color: white;
+    color: white
 }
 
 #content .content-1 .artist .datas p {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    color: white;
+    color: white
 }
 
 #content h1 {
@@ -129,59 +129,59 @@ header {
     font-size: 50px;
     line-height: 61px;
     color: white;
-    width: 596px;
+    width: 596px
 }
 
 #content h1 span {
-    color: #FF5B50;
+    color: #FF5B50
 }
 
 #content .explore-a-arte {
     width: 200px;
     height: 200px;
     transition: 0.3s;
-    cursor: pointer;
+    cursor: pointer
 }
 
 #content .explore-a-arte:hover {
-    transform: scale(1.05);
+    transform: scale(1.05)
 }
 
 #gallery .gallery-1 {
-    margin-top: 100px;
+    margin-top: 100px
 }
 
 #gallery .gallery-1,
 #gallery .gallery-2 {
     display: flex;
     justify-content: center;
-    gap: 16.16px;
+    gap: 16.16px
 }
 
 #gallery .gallery-1 img,
 #gallery .gallery-2 img {
     transition: 0.3s;
-    cursor: pointer;
+    cursor: pointer
 }
 
 #gallery .gallery-1 img:hover,
 #gallery .gallery-2 img:hover {
-    transform: scale(1.05);
+    transform: scale(1.05)
 }
 
 #gallery .gallery-2 {
-    margin-top: 60.44px;
+    margin-top: 60.44px
 }
 
 main {
-    background-color: #0E0E0E;
+    background-color: #0E0E0E
 }
 
 #datas {
     display: grid;
     grid-template-columns: 1fr 1159px;
     grid-template-areas: "a b";
-    border-bottom: 1px solid #5A5757;
+    border-bottom: 1px solid #5A5757
 }
 
 #datas .left {
@@ -189,7 +189,7 @@ main {
     display: flex;
     flex-direction: column;
     align-self: center;
-    gap: 70px;
+    gap: 70px
 }
 
 #datas .left div span {
@@ -198,7 +198,7 @@ main {
     line-height: 61px;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 #datas .left div p {
@@ -206,23 +206,23 @@ main {
     font-size: 20px;
     line-height: 24px;
     color: #5A5757;
-    text-align: center;
+    text-align: center
 }
 
 #datas .right {
-    border-left: 1px solid #5A5757;
+    border-left: 1px solid #5A5757
 }
 
 #datas .right .text {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around
 }
 
 #datas .right .text .text-1,
 #datas .right .text .text-2 {
     width: 435px;
     margin-top: 79.6px;
-    margin-bottom: 71px;
+    margin-bottom: 71px
 }
 
 #datas .right .text .text-1 p,
@@ -231,13 +231,13 @@ main {
     font-size: 18px;
     line-height: 22px;
     color: white;
-    margin-bottom: 63px;
+    margin-bottom: 63px
 }
 
 #datas .right .text .text-1 p span a,
 #datas .right .text .text-2 p span a {
     text-decoration-line: underline;
-    color: #FF5B50;
+    color: #FF5B50
 }
 
 #datas .right .text .text-1 a,
@@ -247,13 +247,13 @@ main {
     line-height: 22px;
     color: white;
     text-decoration: none;
-    text-decoration-line: underline;
+    text-decoration-line: underline
 }
 
 #popularity .popularity-title {
     display: flex;
     justify-content: space-around;
-    width: 87%;
+    width: 87%
 }
 
 #popularity .popularity-title h2 {
@@ -262,16 +262,16 @@ main {
     line-height: 61px;
     color: #FF5B50;
     margin-top: 150px;
-    margin-bottom: 158px;
+    margin-bottom: 158px
 }
 
 #popularity .popularity-title h2 span {
-    color: white;
+    color: white
 }
 
 #popularity .images {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr
 }
 
 #popularity .images .images-left,
@@ -279,7 +279,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 50px
 }
 
 #popularity .images .images-left .mayk-brito,
@@ -287,14 +287,14 @@ main {
 #popularity .images .images-right .jakeliny-gracielly,
 #popularity .images .images-right .tamires-santos {
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.3s
 }
 
 #popularity .images .images-left .mayk-brito:hover,
 #popularity .images .images-left .joao-inacio:hover,
 #popularity .images .images-right .jakeliny-gracielly:hover,
 #popularity .images .images-right .tamires-santos:hover {
-    transform: scale(1.05);
+    transform: scale(1.05)
 }
 
 #popularity .images .images-left .mayk-brito .astronaut a,
@@ -310,7 +310,7 @@ main {
     align-items: center;
     justify-content: space-between;
     width: 376.9px;
-    margin-bottom: 15.1px;
+    margin-bottom: 15.1px
 }
 
 #popularity .images .images-left .mayk-brito .artist,
@@ -318,7 +318,7 @@ main {
 #popularity .images .images-right .jakeliny-gracielly .artist,
 #popularity .images .images-right .tamires-santos .artist {
     width: 340px;
-    margin-bottom: 29px;
+    margin-bottom: 29px
 }
 
 #popularity .images .images-left .mayk-brito .artist a,
@@ -329,7 +329,7 @@ main {
     font-size: 20px;
     line-height: 24px;
     color: #5A5757;
-    text-decoration: none;
+    text-decoration: none
 }
 
 #popularity .images .images-left .mayk-brito .artist span,
@@ -340,39 +340,39 @@ main {
     font-size: 20px;
     line-height: 24px;
     color: #FF5B50;
-    float: right;
+    float: right
 }
 
 #popularity .images .images-right {
-    border-left: 1px solid #5A5757;
+    border-left: 1px solid #5A5757
 }
 
 #best-artists .best-artists-title {
     display: flex;
     justify-content: center;
     margin-top: 151px;
-    margin-bottom: 120px;
+    margin-bottom: 120px
 }
 
 #best-artists .best-artists-title h2 {
     font-weight: 700;
     font-size: 50px;
     line-height: 61px;
-    color: white;
+    color: white
 }
 
 #best-artists .best-artists-title h2 span {
-    color: #FF5B50;
+    color: #FF5B50
 }
 
 #best-artists .best-artists-1 {
-    margin-bottom: 111px;
+    margin-bottom: 111px
 }
 
 #best-artists .best-artists-1,
 #best-artists .best-artists-2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around
 }
 
 #best-artists .best-artists-1 .best-artists-mayk-brito a,
@@ -389,7 +389,7 @@ main {
     width: 350px;
     height: 150px;
     justify-content: center;
-    transition: 0.3s;
+    transition: 0.3s
 }
 
 #best-artists .best-artists-1 .best-artists-mayk-brito a:hover,
@@ -399,7 +399,7 @@ main {
 #best-artists .best-artists-2 .best-artists-ana-silva a:hover,
 #best-artists .best-artists-2 .best-artists-diego-f a:hover {
     background-color: #FF5B50;
-    transform: scale(1.05);
+    transform: scale(1.05)
 }
 
 #best-artists .best-artists-1 .best-artists-mayk-brito a div h3,
@@ -412,7 +412,7 @@ main {
     font-size: 20px;
     line-height: 24px;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
 
 #best-artists .best-artists-1 .best-artists-mayk-brito a div span,
@@ -425,7 +425,7 @@ main {
     font-size: 20px;
     line-height: 24px;
     color: #FF5B50;
-    transition: 0.3s;
+    transition: 0.3s
 }
 
 #best-artists .best-artists-1 .best-artists-mayk-brito a:hover div span,
@@ -434,7 +434,7 @@ main {
 #best-artists .best-artists-2 .best-artists-tamires-santos a:hover div span,
 #best-artists .best-artists-2 .best-artists-ana-silva a:hover div span,
 #best-artists .best-artists-2 .best-artists-diego-f a:hover div span {
-    color: white;
+    color: white
 }
 
 #best-artists .all-artists a {
@@ -449,15 +449,15 @@ main {
     justify-content: center;
     margin-top: 63px;
     padding-bottom: 147.66px;
-    transition: 0.3s;
+    transition: 0.3s
 }
 
 #best-artists .all-artists a:hover {
-    transform: scale(1.05);
+    transform: scale(1.05)
 }
 
 footer {
-    background-color: #252525;
+    background-color: #252525
 }
 
 #baseboard {
@@ -468,7 +468,7 @@ footer {
     padding-bottom: 60px;
     padding-left: 85px;
     padding-right: 85px;
-    border-bottom: 1px solid #5A5757;
+    border-bottom: 1px solid #5A5757
 }
 
 #baseboard a button {
@@ -476,24 +476,24 @@ footer {
     border: none;
     width: 80px;
     height: 80px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 #baseboard a button:hover {
-    background-color: white;
+    background-color: white
 }
 
 #news {
     display: grid;
     grid-template-columns: 0.5fr 1fr;
-    border-bottom: 1px solid #5A5757;
+    border-bottom: 1px solid #5A5757
 }
 
 #news .left {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 #news .left div h4 {
@@ -502,15 +502,15 @@ footer {
     line-height: 37px;
     color: white;
     width: 350px;
-    margin-bottom: 25px;
+    margin-bottom: 25px
 }
 
 #news .left div h4 span {
-    color: #FF5B50;
+    color: #FF5B50
 }
 
 #news .left div .form {
-    display: flex;
+    display: flex
 }
 
 #news .left div .form .email {
@@ -523,11 +523,11 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
-    padding-right: 25px;
+    padding-right: 25px
 }
 
 #news .left div .form .email:focus {
-    outline: none;
+    outline: none
 }
 
 #news .left div .form .button {
@@ -540,7 +540,7 @@ footer {
     padding-right: 26px;
     padding-bottom: 21px;
     padding-left: 25px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 #news .right {
@@ -548,20 +548,20 @@ footer {
     justify-content: space-around;
     padding-top: 74px;
     padding-bottom: 53px;
-    border-left: 1px solid #5A5757;
+    border-left: 1px solid #5A5757
 }
 
 #news .right .right-1 h5,
 #news .right .right-2 h5,
 #news .right .right-3 h5 {
     margin-bottom: 16px;
-    transition: 0.3s;
+    transition: 0.3s
 }
 
 #news .right .right-1 h5:hover,
 #news .right .right-2 h5:hover,
 #news .right .right-3 h5:hover {
-    transform: scale(1.05);
+    transform: scale(1.05)
 }
 
 #news .right .right-1 h5 a,
@@ -571,7 +571,7 @@ footer {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    color: white;
+    color: white
 }
 
 #news .right .right-1 ul,
@@ -580,19 +580,19 @@ footer {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 15px
 }
 
 #news .right .right-1 ul li,
 #news .right .right-2 ul li,
 #news .right .right-3 ul li {
-    transition: 0.3s;
+    transition: 0.3s
 }
 
 #news .right .right-1 ul li:hover,
 #news .right .right-2 ul li:hover,
 #news .right .right-3 ul li:hover {
-    transform: scale(1.05);
+    transform: scale(1.05)
 }
 
 #news .right .right-1 ul li a,
@@ -602,28 +602,28 @@ footer {
     font-size: 20px;
     line-height: 24px;
     color: #5A5757;
-    text-decoration: none;
+    text-decoration: none
 }
 
 #social-links {
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 #social-links .social-links {
     display: flex;
     align-items: center;
-    gap: 762px;
+    gap: 762px
 }
 
 #social-links .social-links .link {
     margin-top: 80px;
     margin-bottom: 63px;
-    transition: 0.3s;
+    transition: 0.3s
 }
 
 #social-links .social-links .link:hover {
-    transform: scale(1.05);
+    transform: scale(1.05)
 }
 
 #social-links .social-links .link a {
@@ -631,19 +631,19 @@ footer {
     font-size: 20px;
     line-height: 24px;
     color: #5A5757;
-    text-decoration: none;
+    text-decoration: none
 }
 
 #social-links .social-links .social ul {
     list-style: none;
     display: flex;
-    gap: 50px;
+    gap: 50px
 }
 
 #social-links .social-links .social ul li a img {
-    transition: 0.3s;
+    transition: 0.3s
 }
 
 #social-links .social-links .social ul li a img:hover {
-    transform: scale(1.05);
+    transform: scale(1.05)
 }
